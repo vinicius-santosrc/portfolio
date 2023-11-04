@@ -1,0 +1,116 @@
+
+
+header.header-app {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 50px;
+    border-bottom: 1px solid rgb(221, 221, 221);
+    position: fixed;
+    width: 100%;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0px;
+    z-index: 3;
+    
+}
+
+header.header-app .header-app-middle-buttons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+header.header-app .header-app-link {
+    color: rgb(43, 43, 43);
+    text-decoration: none;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    transition: 200ms;
+}
+
+header.header-app .header-app-link:hover {
+    color: #3939f8;
+
+}
+
+header.header-app .header-app-selected {
+    color: red;
+    text-decoration: underline red;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    
+}
+
+header.header-app .header-app-leftside h1 {
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+header.header-app .header-app-leftside h2 {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #3939f8;
+}
+
+.header-app-middle-buttons-mobile {
+    display: none;
+}
+
+@media screen and (max-width: 900px) {
+    .header-app-middle-buttons-mobile {
+        display: block;
+
+    }
+
+    .header-app-middle-buttons-mobile button {
+        background-color: transparent;
+        border: none;
+        outline: none;
+        font-size: 25px;
+    }
+
+    header.header-app .header-app-middle-buttons {
+        display: none;
+    }
+
+    header.header-app .header-app-leftside h1 {
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        font-weight: 500;
+        color: rgb(51, 51, 51);
+    }
+    
+    header.header-app .header-app-leftside h2 {
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        color: #3939f8;
+    }
+
+    header.header-app {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 20px;
+        border-bottom: 1px solid rgb(221, 221, 221);
+        position: fixed;
+        width: 100%;
+        align-items: center;
+        background-color: rgb(255, 255, 255);
+        border-radius: 0px;
+        z-index: 3;
+        
+    }
+
+    
+}
