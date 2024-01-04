@@ -10,7 +10,7 @@ export default function ProjectComponent() {
         {
             "image": "./static/media/laris-acessorios.fef1251u95u18.webp",
             "nome": "Laris Acessórios 💎",
-            "periodo": "2020 - 2023",
+            "periodo": "2020 - 2024",
             "desc": <p>Laris Acessórios é uma <u>loja virtual</u> onde é vendido jóias e acessórios femininos. É possível <u>adicionar itens a sacola</u> e realizar o checkout para o WhatsApp. Os administradores tem acesso ao Dashboard, onde é possível <b>configurar e adicionar produtos</b>, fazer planos semanais, visualizar pedidos e alterar imagens de dentro do site.</p>,
             "tecnologias":
                 <div className="list-tec">
