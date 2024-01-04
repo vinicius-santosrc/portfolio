@@ -43,6 +43,23 @@ export default function ProjectComponent() {
 
         },
         {
+            "image": "./static/media/vnscloset.fg1418518ht134.webp",
+            "nome": "VNS CLOSET 🕶️",
+            "periodo": "2023",
+            "desc": <p>Escolha seu estilo favorito no VNS CLOSET, aqui você poderá escolher tênis, camisas, calças, bermudas e muito mais. <b>E-commerce completo com sistemas de sacolas e checkout por WhatsApp</b>.</p>,
+            "tecnologias":
+                <div className="list-tec">
+                    <ReactIcon />
+                    <AppwriteIcon />
+                    <NodeIcon />
+                    <JavascriptIcon />
+                    <CSS3Icon />
+                </div>,
+            "repositoryurl": "https://github.com/vinicius-santosrc/vns_closet",
+            "livedemo": "https://vns-closet.vercel.app/"
+
+        },
+        {
             "image": "./static/media/startapp.fef1t1841t14.webp",
             "nome": "START 🏋🏽💪🏼",
             "periodo": "2023",
@@ -59,21 +76,7 @@ export default function ProjectComponent() {
             "livedemo": "https://start-application.vercel.app/"
 
         },
-        {
-            "image": "./static/media/vnscloset.fg1418518ht134.webp",
-            "nome": "VNS CLOSET 🕶️",
-            "periodo": "2023",
-            "desc": <p>Escolha seu estilo favorito no VNS CLOSET, aqui você poderá escolher tênis, camisas, calças, bermudas e muito mais. <b>E-commerce completo com sistemas de sacolas e checkout por WhatsApp</b>.</p>,
-            "tecnologias":
-                <div className="list-tec">
-                    <JavascriptIcon />
-                    <HTML5Icon />
-                    <CSS3Icon />
-                </div>,
-            "repositoryurl": "https://github.com/vinicius-santosrc/vns-closet",
-            "livedemo": "https://vns-closet.netlify.app/"
-
-        },
+        
         
         {
             "image": "./static/media/mario-play.fet1qth1ut131.webp",
