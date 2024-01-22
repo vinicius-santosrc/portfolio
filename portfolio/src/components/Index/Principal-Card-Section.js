@@ -3,7 +3,7 @@ import React from 'react';
 /* ICONS LABELS */
 
 import IconsLabels from './PrincipalCards-Svgs/ComponentIcons';
-import { FirebaseIcon, AppwriteIcon, HTML5Icon, CSS3Icon, NodeIcon, ReactIcon, JavascriptIcon } from './tecnologias/IconsWrap';
+import { FirebaseIcon, AppwriteIcon, HTML5Icon, CSS3Icon, NodeIcon, ReactIcon, JavascriptIcon, MySQLIcon } from './tecnologias/IconsWrap';
 import { Link } from 'react-router-dom';
 
 export default function PrincipalCardSection() {
@@ -27,6 +27,7 @@ export default function PrincipalCardSection() {
                 <div className="main-card-section-rightside-lang">
                     <ReactIcon />
                     <NodeIcon />
+                    <MySQLIcon />
                     <JavascriptIcon />
                     <CSS3Icon />
                     <HTML5Icon />
