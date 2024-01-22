@@ -2,10 +2,10 @@ import TitleSection from "./TitleSection";
 
 export default function AboutMe() {
 
-    const Data = new Date()
-    const Year = Data.getFullYear()
+    const Data = new Date();
+    const Year = Data.getFullYear();
 
-    const IdadeAtual = Year - 2006
+    const IdadeAtual = Year - 2006;
 
     return (
         <section className="section-cardswrap-information" id="sobremim">
