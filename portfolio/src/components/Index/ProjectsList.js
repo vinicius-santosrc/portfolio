@@ -1,5 +1,5 @@
 import { ReactComponentElement, useEffect, useState } from "react"
-import { AppwriteIcon, CSS3Icon, FirebaseIcon, HTML5Icon, JavascriptIcon, NodeIcon, PWAIcon, ReactIcon } from "./tecnologias/IconsWrap";
+import { AppwriteIcon, CSS3Icon, FirebaseIcon, HTML5Icon, JavascriptIcon, MySQLIcon, NodeIcon, PWAIcon, ReactIcon } from "./tecnologias/IconsWrap";
 import { Link } from "react-router-dom";
 export default function ProjectComponent() {
 
@@ -15,6 +15,7 @@ export default function ProjectComponent() {
             "tecnologias":
                 <div className="list-tec">
                     <ReactIcon />
+                    <MySQLIcon />
                     <AppwriteIcon />
                     <NodeIcon />
                     <JavascriptIcon />
