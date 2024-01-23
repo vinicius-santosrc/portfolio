@@ -193,6 +193,7 @@ body {
 .main-card-section-rightside-lang {
     display: flex;
     justify-content: right;
+    flex-wrap: wrap;
     gap: 20px;
     margin: 10px 0px;
 }
@@ -435,6 +436,10 @@ footer {
     }
 
     .main-card-section-rightside-buttons {
+        justify-content: center;
+    }
+
+    .main-card-section-rightside-lang {
         justify-content: center;
     }
     
