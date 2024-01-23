@@ -28,6 +28,7 @@ export default function Habilidades() {
                     <div className="back-end-skills-middle">
                         <ul>
                             <li>NodeJS</li>
+                            <li>MySQL</li>
                             <li>Appwrite</li>
                             <li>Firebase</li>
                         </ul>
