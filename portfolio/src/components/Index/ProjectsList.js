@@ -61,6 +61,20 @@ export default function ProjectComponent() {
 
         },
         {
+            "image": "https://private-user-images.githubusercontent.com/88507996/299168347-0b2a5b97-cf40-4932-b305-847d1c0ff58b.jpeg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDYwNjY5MDcsIm5iZiI6MTcwNjA2NjYwNywicGF0aCI6Ii84ODUwNzk5Ni8yOTkxNjgzNDctMGIyYTViOTctY2Y0MC00OTMyLWIzMDUtODQ3ZDFjMGZmNThiLmpwZWc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMTI0JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDEyNFQwMzIzMjdaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1kOWIwYjJlYTZhNzhkNmZkOTQwOWM2MWM2ZjVmNzIyYWJiMzE3NjFlNWJlNjZiNzNhYWU3Y2JjNDI5OWE5NmJjJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.uf2WeVucwDhCXIT-3zgOB7hDHKLehsDu8bAkXfQjMJ0",
+            "nome": "LANDING PAGE START 🏋🏽💪🏼",
+            "periodo": "2023",
+            "desc": <p>Descubra a Revolução Fitness - Transforme Seu Estilo de Vida, Alcance Seus Objetivos! Landing Page somente em Front-End</p>,
+            "tecnologias":
+                <div className="list-tec">
+                    <ReactIcon />
+                    <CSS3Icon />
+                </div>,
+            "repositoryurl": "https://github.com/vinicius-santosrc/startapp-lading-page",
+            "livedemo": "https://startapp-web.vercel.app/"
+
+        },
+        {
             "image": "./static/media/startapp.fef1t1841t14.webp",
             "nome": "START 🏋🏽💪🏼",
             "periodo": "2023",
