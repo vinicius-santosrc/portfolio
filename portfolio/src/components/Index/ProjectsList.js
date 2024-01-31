@@ -91,8 +91,23 @@ export default function ProjectComponent() {
             "livedemo": "https://start-application.vercel.app/"
 
         },
-        
-        
+        {
+            "image": "./static/media/startapp.fef1t1841t14.webp",
+            "nome": "START 🏋🏽💪🏼",
+            "periodo": "2023",
+            "desc": <p>Aplicação Web onde é possível fazer rotinas personalizadas de acordo com seu dia, controlar seu tempo com modo foco, hidratar-se melhor e compartilhar seu treino. Não terminado.</p>,
+            "tecnologias":
+                <div className="list-tec">
+                    <ReactIcon />
+                    <FirebaseIcon />
+                    <PWAIcon />
+                    <NodeIcon />
+                    <CSS3Icon />
+                </div>,
+            "repositoryurl": "https://github.com/vinicius-santosrc/START-Application",
+            "livedemo": "https://start-application.vercel.app/"
+
+        },        
         {
             "image": "./static/media/mario-play.fet1qth1ut131.webp",
             "nome": "MARIO PLAY 🎮",
@@ -106,21 +121,6 @@ export default function ProjectComponent() {
                 </div>,
             "repositoryurl": "https://github.com/vinicius-santosrc/mario-play-game",
             "livedemo": "https://my-game1.netlify.app/"
-
-        },
-        {
-            "image": "./static/media/my-store.fetgyj12hy841.webp",
-            "nome": "MY STORE 🛍️",
-            "periodo": "2023",
-            "desc": <p>Um site front-end onde é feito uma loja de aplicações. Sendo atualizado os banners cada vez que o usuário entra.</p>,
-            "tecnologias":
-                <div className="list-tec">
-                    <JavascriptIcon />
-                    <HTML5Icon />
-                    <CSS3Icon />
-                </div>,
-            "repositoryurl": "https://github.com/vinicius-santosrc/mystore",
-            "livedemo": "https://my-storeapps.netlify.app/"
 
         }
 
