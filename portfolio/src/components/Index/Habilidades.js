@@ -16,8 +16,12 @@ export default function Habilidades() {
                         <ul>
                             <li>HTML</li>
                             <li>CSS</li>
-                            <li>Javascript</li>
+                            <li>JavaScript</li>
                             <li>React</li>
+                            <li>Angular (Aprendendo)</li>
+                            <li>Typescript</li>
+                            <li>Tailwind CSS</li>
+                            <li>Figma</li>
                         </ul>
                     </div>
                 </div>
@@ -28,6 +32,7 @@ export default function Habilidades() {
                     <div className="back-end-skills-middle">
                         <ul>
                             <li>NodeJS</li>
+                            <li>C++ (Aprendendo)</li>
                             <li>MySQL</li>
                             <li>Appwrite</li>
                             <li>Firebase</li>
@@ -42,11 +47,9 @@ export default function Habilidades() {
                         <ul>
                             <li>Git</li>
                             <li>GitHub</li>
-                            <li>Figma</li>
+                            <li>Inglês Intermediário</li>
                             <li>Vercel</li>
                             <li>Netlify</li>
-                            <li>VS CODE</li>
-                            <li>Webpack</li>
                         </ul>
                     </div>
                 </div>

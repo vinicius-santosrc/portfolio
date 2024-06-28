@@ -31,7 +31,7 @@ header.header-app .header-app-link {
 }
 
 header.header-app .header-app-link:hover {
-    color: #3939f8;
+    color: #3bc585;
 
 }
 
@@ -57,7 +57,7 @@ header.header-app .header-app-leftside h2 {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    color: #3939f8;
+    color: #3bc585;
 }
 
 .header-app-middle-buttons-mobile {
@@ -95,7 +95,7 @@ header.header-app .header-app-leftside h2 {
         font-style: normal;
         font-weight: 400;
         line-height: normal;
-        color: #3939f8;
+        color: #3bc585;
     }
 
     header.header-app {

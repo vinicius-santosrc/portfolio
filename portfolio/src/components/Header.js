@@ -16,7 +16,7 @@ export default function Header() {
         <header className="header-app">
             <div className="header-app-leftside">
                 <h1>VINÍCIUS SANTOS</h1>
-                <h2>Desenvolvedor FullStack</h2>
+                <h2>Desenvolvedor Front-End</h2>
             </div>
             {menuOpen ?
                 <menu className="menu-mobile">

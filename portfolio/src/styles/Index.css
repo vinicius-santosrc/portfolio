@@ -57,13 +57,13 @@ body {
 }
 
 .section-cardswrap-information-content-left img {
-    border-radius: 20px;
+    border-radius: 5px;
     width: 100%;
 }
 
 .section-cardswrap-information-content-right h1 {
     color: black;
-    border-left: 2px solid #3939f8;
+    border-left: 2px solid #3bc585;
     padding: 0px 5px;
 
 }
@@ -100,7 +100,7 @@ body {
     box-shadow: 1px 1px 5px gray;
     border-radius: 100%;
     font-size: 25px;
-    color: #3939f8;
+    color: #3bc585;
 }
 
 .section-work-together {
@@ -119,7 +119,7 @@ body {
 
 
 .skills-card {
-    background: #3939f8;
+    background: #3bc585;
     padding: 10px;
     color: white;
     border-radius: 0px;
@@ -153,7 +153,7 @@ body {
 .main-card-section-imagecontent-circle-background {
     width: 80%;
     height: 80%;
-    background: #7474fe;
+    background: #3bc585;
     transform: rotate(20deg);
     border-radius: 5%;
     position: absolute;
@@ -191,10 +191,11 @@ body {
 }
 
 .main-card-section-rightside-lang {
+    width: 550px;
     display: flex;
-    justify-content: right;
+    justify-content: left;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 0px 20px;
     margin: 10px 0px;
 }
 
@@ -211,7 +212,7 @@ body {
 }
 
 .main-card-section-rightside-buttons a:hover {
-    color: #3939f8;
+    color: #3bc585;
 }
 
 .main-card-section-rightside-lang svg {
@@ -219,7 +220,7 @@ body {
 }
 
 .header-section h2 {
-    color: #3939f8;
+    color: #3bc585;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -338,7 +339,7 @@ body {
 }
 
 .project-content-item-show-rightside-bottom a:hover {
-    color: #3939f8;
+    color: #3bc585;
 }
 
 footer {
@@ -441,6 +442,8 @@ footer {
 
     .main-card-section-rightside-lang {
         justify-content: center;
+        width: 90%;
+        margin: auto;
     }
     
     .main-card-section-rightside-lang svg {
