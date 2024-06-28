@@ -6,25 +6,6 @@ export default function ProjectComponent() {
     const [ProjectsList, setProjectsList] = useState("")
 
     const Projects = [
-
-        {
-            "image": "./static/media/laris-acessorios.fef1251u95u18.webp",
-            "nome": "Laris Acessórios 💎",
-            "periodo": "2020 - 2024",
-            "desc": <p>Laris Acessórios é uma <u>loja virtual</u> onde é vendido jóias e acessórios femininos. É possível <u>adicionar itens a sacola</u> e realizar o checkout para o WhatsApp. Os administradores tem acesso ao Dashboard, onde é possível <b>configurar e adicionar produtos</b>, fazer planos semanais, visualizar pedidos e alterar imagens de dentro do site.</p>,
-            "tecnologias":
-                <div className="list-tec">
-                    <ReactIcon />
-                    <MySQLIcon />
-                    <AppwriteIcon />
-                    <NodeIcon />
-                    <JavascriptIcon />
-                    <CSS3Icon />
-                </div>,
-            "repositoryurl": "https://github.com/vinicius-santosrc/laris_acessorios",
-            "livedemo": "https://laris-acessorios.vercel.app/"
-
-        },
         {
             "image": "./static/media/dump-app.tef17345137513.webp",
             "nome": "Dump 📱",
@@ -44,24 +25,43 @@ export default function ProjectComponent() {
 
         },
         {
-            "image": "./static/media/vnscloset.fg1418518ht134.webp",
-            "nome": "VNS CLOSET 🕶️",
-            "periodo": "2023",
-            "desc": <p>Escolha seu estilo favorito no VNS CLOSET, aqui você poderá escolher tênis, camisas, calças, bermudas e muito mais. <b>E-commerce completo com sistemas de sacolas e checkout por WhatsApp</b>.</p>,
+            "image": "./static/media/comtodorespeito.png",
+            "nome": "COM TODO RESPEITO 🕶️",
+            "periodo": "2024",
+            "desc": <p>Escolha seu estilo favorito na COM TODO RESPEITO INC, aqui você poderá escolher camisetas, corta-ventos, moletons e muito mais. <b>E-commerce completo com sistemas de sacolas e checkout por WhatsApp</b>.</p>,
             "tecnologias":
                 <div className="list-tec">
                     <ReactIcon />
+                    <MySQLIcon />
                     <AppwriteIcon />
                     <NodeIcon />
                     <JavascriptIcon />
                     <CSS3Icon />
                 </div>,
             "repositoryurl": "https://github.com/vinicius-santosrc/vns_closet",
-            "livedemo": "https://vns-closet.vercel.app/"
+            "livedemo": "https://oficialcomtodorespeito.com/"
 
         },
         {
-            "image": "https://private-user-images.githubusercontent.com/88507996/299168347-0b2a5b97-cf40-4932-b305-847d1c0ff58b.jpeg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDYwNjY5MDcsIm5iZiI6MTcwNjA2NjYwNywicGF0aCI6Ii84ODUwNzk5Ni8yOTkxNjgzNDctMGIyYTViOTctY2Y0MC00OTMyLWIzMDUtODQ3ZDFjMGZmNThiLmpwZWc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMTI0JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDEyNFQwMzIzMjdaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1kOWIwYjJlYTZhNzhkNmZkOTQwOWM2MWM2ZjVmNzIyYWJiMzE3NjFlNWJlNjZiNzNhYWU3Y2JjNDI5OWE5NmJjJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.uf2WeVucwDhCXIT-3zgOB7hDHKLehsDu8bAkXfQjMJ0",
+            "image": "./static/media/laris-acessorios.fef1251u95u18.webp",
+            "nome": "Laris Acessórios 💎",
+            "periodo": "2023",
+            "desc": <p>Laris Acessórios é uma <u>loja virtual</u> onde é vendido jóias e acessórios femininos. É possível <u>adicionar itens a sacola</u> e realizar o checkout para o WhatsApp. Os administradores tem acesso ao Dashboard, onde é possível <b>configurar e adicionar produtos</b>, fazer planos semanais, visualizar pedidos e alterar imagens de dentro do site.</p>,
+            "tecnologias":
+                <div className="list-tec">
+                    <ReactIcon />
+                    <MySQLIcon />
+                    <AppwriteIcon />
+                    <NodeIcon />
+                    <JavascriptIcon />
+                    <CSS3Icon />
+                </div>,
+            "repositoryurl": "https://github.com/vinicius-santosrc/laris_acessorios",
+            "livedemo": "https://laris-acessorios.vercel.app/"
+
+        },
+        {
+            "image": "./static/media/landingpagestart.png",
             "nome": "LANDING PAGE START 🏋🏽💪🏼",
             "periodo": "2023",
             "desc": <p>Descubra a Revolução Fitness - Transforme Seu Estilo de Vida, Alcance Seus Objetivos! Landing Page somente em Front-End</p>,
@@ -90,9 +90,7 @@ export default function ProjectComponent() {
             "repositoryurl": "https://github.com/vinicius-santosrc/START-Application",
             "livedemo": "https://start-application.vercel.app/"
 
-        },
-        
-        
+        },  
         {
             "image": "./static/media/mario-play.fet1qth1ut131.webp",
             "nome": "MARIO PLAY 🎮",
@@ -106,21 +104,6 @@ export default function ProjectComponent() {
                 </div>,
             "repositoryurl": "https://github.com/vinicius-santosrc/mario-play-game",
             "livedemo": "https://my-game1.netlify.app/"
-
-        },
-        {
-            "image": "./static/media/my-store.fetgyj12hy841.webp",
-            "nome": "MY STORE 🛍️",
-            "periodo": "2023",
-            "desc": <p>Um site front-end onde é feito uma loja de aplicações. Sendo atualizado os banners cada vez que o usuário entra.</p>,
-            "tecnologias":
-                <div className="list-tec">
-                    <JavascriptIcon />
-                    <HTML5Icon />
-                    <CSS3Icon />
-                </div>,
-            "repositoryurl": "https://github.com/vinicius-santosrc/mystore",
-            "livedemo": "https://my-storeapps.netlify.app/"
 
         }
 
