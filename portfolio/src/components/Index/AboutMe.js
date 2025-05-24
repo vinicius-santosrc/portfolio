@@ -19,9 +19,9 @@ export default function AboutMe() {
                 </div>
                 <div className="section-cardswrap-information-content-right">
                     <h1>VÍNICIUS DA SILVA SANTOS</h1>
-                    <p>Como desenvolvedor júnior, possuo muito conhecimento para desenvolver aplições que envolvem <b>banco de dados</b> e que buscam a <b>flexibilidade limpa</b> em todos os aparelhos. Procuro cada vez mais deixar meu código otimizado e limpo para que seja fácil a busca de dados e informações.</p>
-
-                    <p><b>Tenho {IdadeAtual} anos.</b> Além de programar gosto de praticar alguns esportes como basquete e futebol, gosto de jogar poker e truco, tocar muita guitarra e de sair com amigos e familiares. Sempre tive vontade de desenvolver aplicativos e jogos e quando comecei com HTML5 em 2020 eu me apaixonei.</p>
+                    <p>Sou um desenvolvedor com experiência no desenvolvimento de aplicações que integram banco de dados e são projetadas para oferecer uma experiência limpa e responsiva em diferentes dispositivos. Procuro sempre em escrever códigos limpos e bem estruturados, priorizando a legibilidade, manutenibilidade e desempenho.
+                        Atualmente com <b>{IdadeAtual} anos</b>, sou apaixonado por tecnologia desde 2020, quando tive meu primeiro contato com HTML5 — desde então, desenvolvo projetos com entusiasmo, especialmente nas áreas de aplicativos e jogos. Fora da programação, gosto de praticar esportes como basquete e futebol, jogar poker, tocar guitarra e aproveitar momentos com amigos e familiares.
+                        Estou sempre em busca de novos aprendizados e desafios que me permitam evoluir como desenvolvedor e como pessoa.</p>
                 </div>
             </div>
         </section>

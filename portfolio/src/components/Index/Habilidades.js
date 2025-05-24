@@ -14,14 +14,12 @@ export default function Habilidades() {
                     </div>
                     <div className="front-end-skills-middle">
                         <ul>
-                            <li>HTML</li>
-                            <li>CSS</li>
-                            <li>JavaScript</li>
                             <li>React</li>
-                            <li>Angular (Aprendendo)</li>
+                            <li>Angular</li>
+                            <li>React Native</li>
                             <li>Typescript</li>
                             <li>Tailwind CSS</li>
-                            <li>Figma</li>
+                            <li>SASS</li>
                         </ul>
                     </div>
                 </div>
@@ -31,11 +29,9 @@ export default function Habilidades() {
                     </div>
                     <div className="back-end-skills-middle">
                         <ul>
-                            <li>NodeJS</li>
-                            <li>C++ (Aprendendo)</li>
+                            <li>Node</li>
                             <li>MySQL</li>
-                            <li>Appwrite</li>
-                            <li>Firebase</li>
+                            <li>C++ (Aprendendo)</li>
                         </ul>
                     </div>
                 </div>
@@ -45,11 +41,11 @@ export default function Habilidades() {
                     </div>
                     <div className="other-end-skills-middle">
                         <ul>
+                            <li>Inglês Intermediário</li>
                             <li>Git</li>
                             <li>GitHub</li>
-                            <li>Inglês Intermediário</li>
+                            <li>Figma</li>
                             <li>Vercel</li>
-                            <li>Netlify</li>
                         </ul>
                     </div>
                 </div>

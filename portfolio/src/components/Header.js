@@ -7,11 +7,8 @@ import '../styles/HeaderStyles.css'
 import { useState } from "react";
 
 export default function Header() {
-
-    const [menuOpen, setMenuOpen] = useState(false)
-
-
-
+    const [menuOpen, setMenuOpen] = useState(false);
+    
     return (
         <header className="header-app">
             <div className="header-app-leftside">

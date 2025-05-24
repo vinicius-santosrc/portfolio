@@ -23,6 +23,7 @@ export default function PrincipalCardSection() {
                 <div className='main-card-section-rightside-buttons'>
                     <Link to={"https://www.linkedin.com/in/vinicius-santos-339428286/"} target='_blank'><i className="fa-brands fa-linkedin"></i> LinkedIn </Link>
                     <Link to={"https://github.com/vinicius-santosrc"} target='_blank'><i className="fa-brands fa-github"></i> GitHub </Link>
+                    <Link to={"https://www.instagram.com/vinicius_santosrc/"} target='_blank'><i className="fa-brands fa-instagram"></i> Instagram </Link>
                 </div>
                 <div className="main-card-section-rightside-lang">
                     <ReactIcon />

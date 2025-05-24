@@ -1,5 +1,5 @@
 import { ReactComponentElement, useEffect, useState } from "react"
-import { AppwriteIcon, CSS3Icon, FirebaseIcon, HTML5Icon, JavascriptIcon, MySQLIcon, NodeIcon, PWAIcon, ReactIcon } from "./tecnologias/IconsWrap";
+import { AppwriteIcon, CSS3Icon, FirebaseIcon, HTML5Icon, JavascriptIcon, JWTIcon, MySQLIcon, NodeIcon, PWAIcon, ReactIcon, StripeIcon } from "./tecnologias/IconsWrap";
 import { Link } from "react-router-dom";
 export default function ProjectComponent() {
 
@@ -7,21 +7,20 @@ export default function ProjectComponent() {
 
     const Projects = [
         {
-            "image": "./static/media/dump-app.tef17345137513.webp",
-            "nome": "Dump 📱",
-            "periodo": "2023",
-            "desc": <p>Dump é uma <u>social media</u> onde as pessoas podem postar fotos, interagir com outras pessoas e se divertir postando os seus dumps diários. É possível <b>seguir, curtir, comentar. </b></p>,
+            "image": "./static/media/laris-acessorios.fef1251u95u18.webp",
+            "nome": "Laris Acessórios 💎",
+            "periodo": "2025",
+            "desc": <p>Laris Acessórios é uma <u>loja virtual</u> onde é vendido jóias, perfumes e acessórios femininos. É possível <u>adicionar itens a sacola</u> e realizar o checkout efetuando o pagamento via Stripe. Os administradores tem acesso ao Dashboard, onde é possível <b>configurar e adicionar produtos</b>, fazer planos semanais, visualizar pedidos, alterar imagens de dentro do sistema e entre outras opções.</p>,
             "tecnologias":
                 <div className="list-tec">
                     <ReactIcon />
-                    <AppwriteIcon />
-                    <PWAIcon />
                     <NodeIcon />
-                    <JavascriptIcon />
-                    <CSS3Icon />
+                    <MySQLIcon />
+                    <JWTIcon />
+                    <StripeIcon />
                 </div>,
-            "repositoryurl": "https://github.com/vinicius-santosrc/dump.app",
-            "livedemo": "https://dump-app.vercel.app/"
+            "repositoryurl": "https://github.com/vinicius-santosrc/laris_acessorios-3.0",
+            "livedemo": "https://www.larisacessorios.com.br/"
 
         },
         {
@@ -39,25 +38,25 @@ export default function ProjectComponent() {
                     <CSS3Icon />
                 </div>,
             "repositoryurl": "https://github.com/vinicius-santosrc/vns_closet",
-            "livedemo": "https://oficialcomtodorespeito.com/"
+            "livedemo": "http://comtodorespeito.vercel.app/"
 
         },
         {
-            "image": "./static/media/laris-acessorios.fef1251u95u18.webp",
-            "nome": "Laris Acessórios 💎",
+            "image": "./static/media/dump-app.tef17345137513.webp",
+            "nome": "Dump 📱",
             "periodo": "2023",
-            "desc": <p>Laris Acessórios é uma <u>loja virtual</u> onde é vendido jóias e acessórios femininos. É possível <u>adicionar itens a sacola</u> e realizar o checkout para o WhatsApp. Os administradores tem acesso ao Dashboard, onde é possível <b>configurar e adicionar produtos</b>, fazer planos semanais, visualizar pedidos e alterar imagens de dentro do site.</p>,
+            "desc": <p>Dump é uma <u>social media</u> onde as pessoas podem postar fotos, interagir com outras pessoas e se divertir postando os seus dumps diários. É possível <b>seguir, curtir, comentar. </b></p>,
             "tecnologias":
                 <div className="list-tec">
                     <ReactIcon />
-                    <MySQLIcon />
                     <AppwriteIcon />
+                    <PWAIcon />
                     <NodeIcon />
                     <JavascriptIcon />
                     <CSS3Icon />
                 </div>,
-            "repositoryurl": "https://github.com/vinicius-santosrc/laris_acessorios",
-            "livedemo": "https://laris-acessorios.vercel.app/"
+            "repositoryurl": "https://github.com/vinicius-santosrc/dump.app",
+            "livedemo": "https://dump-app.vercel.app/"
 
         },
         {
@@ -89,21 +88,6 @@ export default function ProjectComponent() {
                 </div>,
             "repositoryurl": "https://github.com/vinicius-santosrc/START-Application",
             "livedemo": "https://start-application.vercel.app/"
-
-        },  
-        {
-            "image": "./static/media/mario-play.fet1qth1ut131.webp",
-            "nome": "MARIO PLAY 🎮",
-            "periodo": "2023",
-            "desc": <p>Mario Play era um desafio de fazer em 1 dia um mini jogo envolvendo a franquia Mario com apenas HTML5,CSS3 e JAVASCRIPT. Nesse jogo, é possível Andar, Pular e pegar PowerUps.</p>,
-            "tecnologias":
-                <div className="list-tec">
-                    <JavascriptIcon />
-                    <HTML5Icon />
-                    <CSS3Icon />
-                </div>,
-            "repositoryurl": "https://github.com/vinicius-santosrc/mario-play-game",
-            "livedemo": "https://my-game1.netlify.app/"
 
         }
 

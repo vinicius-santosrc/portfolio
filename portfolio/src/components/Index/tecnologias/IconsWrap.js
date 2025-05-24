@@ -232,7 +232,27 @@ function CPPIcon() {
     )
 }
 
-export { 
+function StripeIcon() {
+    return (
+        <div title="Stripe" className="label-card-lang">
+            <div>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Stripe_Logo%2C_revised_2016.svg/1280px-Stripe_Logo%2C_revised_2016.svg.png" alt="Stripe"/>
+            </div>
+        </div>
+    )
+}
+
+function JWTIcon() {
+    return (
+        <div title="JWT - JSON Web Tokens" className="label-card-lang">
+            <div>
+                <img src="https://img.icons8.com/?size=512&id=rHpveptSuwDz&format=png" alt="JWT" />
+            </div>
+        </div>
+    )
+}
+
+export {
     FirebaseIcon,
     AppwriteIcon,
     HTML5Icon,
@@ -245,5 +265,7 @@ export {
     AngularIcon,
     TypescriptIcon,
     TailwindCssIcon,
-    CPPIcon
+    CPPIcon,
+    StripeIcon,
+    JWTIcon
 };
