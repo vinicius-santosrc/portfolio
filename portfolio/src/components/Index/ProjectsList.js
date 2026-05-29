@@ -1,11 +1,28 @@
-import { ReactComponentElement, useEffect, useState } from "react"
-import { AppwriteIcon, CSS3Icon, FirebaseIcon, HTML5Icon, JavascriptIcon, JWTIcon, MySQLIcon, NodeIcon, PWAIcon, ReactIcon, StripeIcon } from "./tecnologias/IconsWrap";
-import { Link } from "react-router-dom";
+import { useEffect, useState } from "react"
+import { AngularIcon, AppwriteIcon, CSharpIcon, CSS3Icon, JavascriptIcon, JWTIcon, MongoIcon, MySQLIcon, NodeIcon, ReactIcon, StripeIcon, TypescriptIcon, WebSocketIcon, WRTCIcon } from "./tecnologias/IconsWrap";
 export default function ProjectComponent() {
 
     const [ProjectsList, setProjectsList] = useState("")
 
     const Projects = [
+        {
+            "image": "./static/media/dump.webp",
+            "nome": "Dump 📱",
+            "periodo": "2025 - 2026",
+            "desc": <p>Dump é uma <u>rede social full stack</u> em desenvolvimento, criada para compartilhar momentos, posts, vídeos curtos e interações em tempo real. A plataforma conta com <b>feed inteligente, dumps/reels, stories/memories, curtidas, comentários, perfil de usuário, explorar, notificações e chat em tempo real</b>. O projeto também utiliza uma arquitetura moderna com Angular, .NET, MongoDB, SignalR, GraphQL, autenticação JWT e foco em performance, responsividade e experiência próxima de grandes redes sociais.</p>,
+            "tecnologias":
+                <div className="list-tec">
+                    <AngularIcon />
+                    <TypescriptIcon />
+                    <CSharpIcon />
+                    <MongoIcon />
+                    <WebSocketIcon />
+                    <WRTCIcon />
+                </div>,
+            "repositoryurl": "https://github.com/vinicius-santosrc/dump_software",
+            "livedemo": "https://dump-software.vercel.app/"
+
+        },
         {
             "image": "./static/media/laris-acessorios.fef1251u95u18.webp",
             "nome": "Laris Acessórios 💎",
@@ -42,24 +59,6 @@ export default function ProjectComponent() {
 
         },
         {
-            "image": "./static/media/dump-app.tef17345137513.webp",
-            "nome": "Dump 📱",
-            "periodo": "2023",
-            "desc": <p>Dump é uma <u>social media</u> onde as pessoas podem postar fotos, interagir com outras pessoas e se divertir postando os seus dumps diários. É possível <b>seguir, curtir, comentar. </b></p>,
-            "tecnologias":
-                <div className="list-tec">
-                    <ReactIcon />
-                    <AppwriteIcon />
-                    <PWAIcon />
-                    <NodeIcon />
-                    <JavascriptIcon />
-                    <CSS3Icon />
-                </div>,
-            "repositoryurl": "https://github.com/vinicius-santosrc/dump.app",
-            "livedemo": "https://dump-app.vercel.app/"
-
-        },
-        {
             "image": "./static/media/landingpagestart.png",
             "nome": "LANDING PAGE START 🏋🏽💪🏼",
             "periodo": "2023",
@@ -72,25 +71,7 @@ export default function ProjectComponent() {
             "repositoryurl": "https://github.com/vinicius-santosrc/startapp-lading-page",
             "livedemo": "https://startapp-web.vercel.app/"
 
-        },
-        {
-            "image": "./static/media/startapp.fef1t1841t14.webp",
-            "nome": "START 🏋🏽💪🏼",
-            "periodo": "2023",
-            "desc": <p>Aplicação Web onde é possível fazer rotinas personalizadas de acordo com seu dia, controlar seu tempo com modo foco, hidratar-se melhor e compartilhar seu treino. Não terminado.</p>,
-            "tecnologias":
-                <div className="list-tec">
-                    <ReactIcon />
-                    <FirebaseIcon />
-                    <PWAIcon />
-                    <NodeIcon />
-                    <CSS3Icon />
-                </div>,
-            "repositoryurl": "https://github.com/vinicius-santosrc/START-Application",
-            "livedemo": "https://start-application.vercel.app/"
-
         }
-
     ]
 
 

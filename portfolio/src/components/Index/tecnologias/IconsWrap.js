@@ -252,6 +252,46 @@ function JWTIcon() {
     )
 }
 
+function CSharpIcon() {
+    return (
+        <div title="C#" className="label-card-lang">
+            <div>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" alt="C#" />
+            </div>
+        </div>
+    )
+}
+
+function MongoIcon() {
+    return (
+        <div title="MongoDB" className="label-card-lang">
+            <div>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="MongoDB" />
+            </div>
+        </div>
+    )
+}
+
+function WebSocketIcon() {
+    return (
+        <div title="WebSocket" className="label-card-lang">
+            <div>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/socketio/socketio-original.svg" alt="WebSocket" />
+            </div>
+        </div>
+    )
+}
+
+function WRTCIcon() {
+    return (
+        <div title="WebRTC" className="label-card-lang">
+            <div>
+                <img src="https://rodrigoalvesguerra.com.br/wp-content/uploads/2018/09/webrtc-logo-vert-retro-255x305.png" alt="WebRTC" />
+            </div>
+        </div>
+    )
+}
+
 export {
     FirebaseIcon,
     AppwriteIcon,
@@ -267,5 +307,9 @@ export {
     TailwindCssIcon,
     CPPIcon,
     StripeIcon,
-    JWTIcon
+    JWTIcon,
+    CSharpIcon,
+    MongoIcon,
+    WebSocketIcon,
+    WRTCIcon
 };
