@@ -3,7 +3,7 @@ import React from 'react';
 /* ICONS LABELS */
 
 import IconsLabels from './PrincipalCards-Svgs/ComponentIcons';
-import { FirebaseIcon, AppwriteIcon, HTML5Icon, CSS3Icon, NodeIcon, ReactIcon, JavascriptIcon, MySQLIcon, AngularIcon, TypescriptIcon, TailwindCssIcon, CPPIcon, CSharpIcon, MongoIcon, WRTCIcon, JWTIcon, WebSocketIcon } from './tecnologias/IconsWrap';
+import { JavaIcon, FirebaseIcon, AppwriteIcon, HTML5Icon, CSS3Icon, NodeIcon, ReactIcon, JavascriptIcon, MySQLIcon, AngularIcon, TypescriptIcon, TailwindCssIcon, CPPIcon, CSharpIcon, MongoIcon, WRTCIcon, JWTIcon, WebSocketIcon } from './tecnologias/IconsWrap';
 import { Link } from 'react-router-dom';
 
 export default function PrincipalCardSection() {
@@ -26,9 +26,10 @@ export default function PrincipalCardSection() {
                     <Link to={"https://www.instagram.com/vinicius_santosrc/"} target='_blank'><i className="fa-brands fa-instagram"></i> Instagram </Link>
                 </div>
                 <div className="main-card-section-rightside-lang">
+                    <JavaIcon />
+                    <CSharpIcon />
                     <AngularIcon />
                     <TypescriptIcon />
-                    <CSharpIcon />
                     <MongoIcon />
                     <WebSocketIcon />
                     <WRTCIcon />

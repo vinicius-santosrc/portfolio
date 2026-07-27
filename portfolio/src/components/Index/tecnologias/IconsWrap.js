@@ -292,6 +292,16 @@ function WRTCIcon() {
     )
 }
 
+function JavaIcon() {
+    return (
+        <div title="Java" className="label-card-lang">
+            <div>
+                <img src="https://cdn-icons-png.flaticon.com/512/226/226777.png" alt="WebRTC" />
+            </div>
+        </div>
+    )
+}
+
 export {
     FirebaseIcon,
     AppwriteIcon,
@@ -311,5 +321,6 @@ export {
     CSharpIcon,
     MongoIcon,
     WebSocketIcon,
-    WRTCIcon
+    WRTCIcon,
+    JavaIcon
 };

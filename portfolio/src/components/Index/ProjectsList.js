@@ -24,6 +24,22 @@ export default function ProjectComponent() {
 
         },
         {
+            "image": "https://camo.githubusercontent.com/7447a5fe2ee6a245797d0efe5621dce0105c34917d95dbc53d44134ea8ce6e13/68747470733a2f2f692e7974696d672e636f6d2f76692f4758797967456630446c4d2f6d617872657364656661756c742e6a7067",
+            "nome": "NovaSkyWar ⚔️",
+            "periodo": "2026",
+            "desc": <p>NovaSkyWar é um <u>plugin completo de SkyWars para Minecraft</u>, desenvolvido para servidores Spigot 1.8.8. O projeto possui <b>sistema de arenas, salas, kits, habilidades, feast, espectadores, placares, contagem regressiva, PvP, créditos, loja e gerenciamento de partidas</b>. Também conta com criação e edição de mapas por comandos, configurações em YAML e integração com plugins como Vault, ProtocolLib e Multiverse.</p>,
+            "tecnologias":
+                <div className="list-tec">
+                    <span>Java</span>
+                    <span>Spigot API</span>
+                    <span>Bukkit</span>
+                    <span>Maven</span>
+                    <span>YAML</span>
+                </div>,
+            "repositoryurl": "https://github.com/vinicius-santosrc/novaskywar",
+            "livedemo": "https://github.com/vinicius-santosrc/novaskywar/releases"
+        },
+        {
             "image": "./static/media/laris-acessorios.fef1251u95u18.webp",
             "nome": "Laris Acessórios 💎",
             "periodo": "2025",
